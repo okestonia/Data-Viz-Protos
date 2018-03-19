@@ -48,7 +48,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 	
-d3.csv("https://raw.githubusercontent.com/okestonia/Data-Viz-Protos/master/Kiiruse%C3%BCletamine/margid17.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/okestonia/Data-Viz-Protos/master/kiiruseyletamine/margid17.csv", function(error, data) {
   if (error) throw error;
 
   svg.append("line")
