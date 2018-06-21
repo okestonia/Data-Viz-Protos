@@ -1,4 +1,4 @@
-# asseinivee postitus
+# Basseinivee postitus
 
 Siin kaustas on postitusega ["Vesi meie basseinides"](https://opendata.riik.ee/et/blog/vesi-meie-basseinides) seotud failid.
 Postituses kasutan Terviseameti [avaandmeid](http://vtiav.sm.ee/?active_tab_id=A), 20.04.18 seisuga. Basseinide veeproovide XML faili lugesin Excelisse ja salvestasin csv-na, millega tegutsesin edasi Ris.  
