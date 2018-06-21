@@ -1,4 +1,4 @@
-﻿#Kiiruseületamise postitus
+# Kiiruseületamise postitus
 
 Siin kaustas on postitusega ["Kes see siin kihutab?"](https://opendata.riik.ee/et/blog/kes-see-siin-kihutab) seotud failid.
 
