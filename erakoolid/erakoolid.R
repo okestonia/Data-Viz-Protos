@@ -59,7 +59,7 @@ p2_eng <- ggplot(maakonnad[maakonnad$opilased_suh != 0,], aes(Maakond, opilased_
   scale_fill_manual(values = c("gray50", "firebrick")) + theme(legend.position = "none") + scale_y_continuous(limits = c(0,21), oob = rescale_none)
 grid.arrange(p1, p2, ncol = 2, top = textGrob("Maakonniti erineb erakoolid populaarsus. Harjumaa erakoolides käib 8% õpilasi, Lääne-Virumaal 7% õpilastest, 
 kuigi erakoolide osakaal on tunduvalt väiksem.", gp = gpar(fontsize = 20),x = unit(0, "lines"), y = unit(0, "lines"), hjust = 0, vjust = 0))
-grid.arrange(p1_eng, p2_eng, ncol = 2, top = textGrob("The popularity varies by counties. In Harju county there were 8% of students in private schools, 
+grid.arrange(p1_eng, p2_eng, ncol = 2, top = textGrob("The popularity varies by county. In Harju county there were 8% of students in private schools, 
 in Lääne-Viru county there were 7% of students although percentage of private schools was much lower.", gp = gpar(fontsize = 20),x = unit(0, "lines"), y = unit(0, "lines"), hjust = 0, vjust = 0))
 
 
